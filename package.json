@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "install:front": "cd front && yarn install",
+    "install:backend": "cd backend && yarn install",
+    "install:all": "yarn install:front & yarn install:backend"
+  }
+}
